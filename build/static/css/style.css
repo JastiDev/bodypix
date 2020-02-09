@@ -1,0 +1,217 @@
+body {
+    font-size: 14px;
+    background: #f6f6f6;
+	color:#676a6c;
+}
+.button {
+    display: inline-block;
+    width: 128px;
+    border-radius: 3px;
+    background: #68b9ff;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -o-transition: all ease .3s;
+    transition: all .3s ease;
+    position: relative;
+    padding: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:focus, input:focus{
+	outline:none !important;
+	box-shadow:none !important;
+}
+.input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    outline: none;
+    height: 34px;
+    width: 280px;
+    border: 1px solid #e8e9e9;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all ease .3s;
+    transition: all .3s ease;
+    padding: 0 10px;
+    color: #676a6c;
+    font-weight: 400;
+    background: #fff;
+}
+.main-content__header-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.content-block .content-block-header {
+    background: #fff;
+    font-weight: 700;
+    line-height: 22px;
+    border-top: 2px solid #e7eaec;
+    border-bottom: 1px solid #e7eaec;
+    padding: 13px 20px;
+}
+.content-block .content-block-header h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #676a6c;
+}
+.content-block-body {
+    padding: 20px;
+    background: white;
+}
+.content-block-body .form-group label, .content-block-body .form-group legend {
+    font-weight: 600;
+}
+.height-input__switch .height-input__btn:last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.height-input__btn {
+    border: 1px solid #e8e9e9;
+    padding: 0;
+    color: #6c6f71;
+    font-size: 14px;
+    line-height: 20px;
+    background: #fff;
+    outline: none;
+    font-weight: 400;
+    width: 32px;
+    height: 38px;
+	margin-right: -4px;
+}
+.height-input__btn.active{
+    color: #fff;
+    background-color: #9378ca;
+    border-color: #9378ca;
+}
+.height-input__switch .height-input__btn:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.upload-iamges label {
+    width: 100%;
+    border: 1px dotted;
+    position: relative;
+    text-align: center;
+	height: 320px;
+	cursor: pointer;
+}
+.body-model__form-file-overflow , .body-model__form-file-preview{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+	width: 100%;
+	display:flex;
+}
+.body-model__form-file-overflow{
+    padding: 60px 30px;
+}
+.body-model__form-file-preview {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.upload-iamges label .body-model__form-file-overflow .body-model__form-file-pos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+}
+.upload-iamges label .body-model__form-file-overflow p.body-model__form-file-text {
+    bottom: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+.upload-iamges label:hover {
+    border: 1px dashed #9378ca;
+    background-color: rgba(183,104,255,.04);
+}
+.body-model__samples-btn {
+    border: none;
+    border-bottom: 1px solid;
+    padding: 0;
+    background: transparent;
+    color: #9378ca;
+    outline: none;
+}
+.sample-images-text p {
+    text-align: center;
+    margin: 0;
+}
+.button--purple, .button--purple:focus {
+    background: #9378ca;
+}
+.button--lg {
+    width: 190px;
+    line-height: 46px;
+}
+.content--continue-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.height-input__in input#height-ft {
+    margin-right: 10px;
+}
+.height-input__in {
+    display: flex;
+}
+.body-model__form-file-preview-real{
+    height: 100%;
+    object-fit: cover;
+}
+.upload-iamges.real-image .body-model__form-file-overflow {
+	display: none;
+}
+.upload-iamges.real-image:hover .body-model__form-file-overflow {
+    display: block;
+	color: white;
+}
+.measurenments-details .nav-tabs {
+    border: none;
+    padding: 10px 0 20px;
+}
+.measurenments-details .nav-tabs .nav-link {
+	border: none;
+    font-size: 16px;
+	color: #676a6c;
+    font-weight: 600;
+}
+.measurenments-details .nav-tabs .nav-link.active {
+	color: #9378ca;
+    border-bottom: 2px solid #9378ca;
+}
+.measurenments-details table .text {
+    width: 55px;
+    margin-bottom: 2px;
+    color: #676a6c;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.body-model__param-input {
+    width: 65px;
+    margin: 7px 15px 4px;
+    float: right;
+    cursor: default;
+}
+.measurenments-details {
+    height: 605px;
+    overflow: auto;
+}
